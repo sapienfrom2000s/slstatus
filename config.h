@@ -66,7 +66,7 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
 	/* function format          argument */
         { wifi_essid, "%s |",        "wlx5091e31bf1ac" },
-	{ run_command, " %s",            "fetch_time" },
+	{ run_command, " %s",            "/usr/local/bin/fetch_time" },
 	{ battery_perc, " | BAT %s% |", "BAT0" },
 	{ cpu_perc, " CPU %s% |",    NULL },
 	{ ram_perc, " RAM %s% |",     NULL },
